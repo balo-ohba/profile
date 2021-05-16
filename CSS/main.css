@@ -145,8 +145,7 @@ p{
 
 /* #main-visual */
 #main-visual{
-  position: relative;
-  background-image: url("../images/top/Bg.png");
+  background-image: url(../images/top/Bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -154,6 +153,7 @@ p{
   padding-bottom: calc(100%*1862/3693);/* calc(100*ImageHeight/ImageWidth)% */
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
 }
 /**/
 
