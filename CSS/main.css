@@ -146,7 +146,7 @@ p{
 /* #main-visual */
 #main-visual{
   position: relative;
-  background-image: url(images/top/Bg.png);
+  background-image: url(../images/top/Bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
