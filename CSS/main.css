@@ -137,7 +137,7 @@ html{
 /**/
 
 /* profile */
-.profile{
+#profile{
 	position:relative;
 	background: rgba(255, 241, 220, 0.8) ; 
     padding: 3%;
@@ -150,19 +150,19 @@ h2{
     font-size: 20px;
     padding: 0 3%;
 }
-.profile p{
+#profile p{
     font-size: 15px;
     padding: 3% 5% 0;
 }
-.profile ul{
+#profile ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.profile li{
+#profile li{
     width: 50%;
 }
-.profile img{
+#profile img{
     width: 100%;
     height: auto;
 }
