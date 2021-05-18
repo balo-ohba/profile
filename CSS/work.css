@@ -156,7 +156,7 @@ h1{
     line-height: 2.5;
 }
 .item h2{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
 }
 .item p{
@@ -170,8 +170,16 @@ h1{
 /* work */
 .work{
 	position:relative;
-	background: rgba(255, 241, 220, 0.8) ; 
-    padding-bottom: 8%;
+	background: rgba(255, 241, 220) ; 
+    padding-bottom: 5%;
+}
+.work:nth-child(2n){
+    background: rgba(255, 241, 220, 0.8) ; 
+}
+.work h2{
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 5% 0 0 3%;
 }
 .work li ul{
     display: flex;
@@ -207,6 +215,13 @@ h1{
 .work img{
     width: 100%;
     height: auto;
+}
+.work iframe{
+    width: 100%;
+    height: 210px;
+}
+.noneimg{
+    height: 210px;
 }
 /**/
 /**/
