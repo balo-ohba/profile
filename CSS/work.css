@@ -160,7 +160,7 @@ h1{
     font-weight: bolder;
 }
 .item p{
-    margin: 3%;
+    margin: 5%;
     font-size: 14px;
     line-height: 1.7;
     text-align: justify;
@@ -193,6 +193,7 @@ h1{
 .work-category{
     font-size: 14px;
     line-height: 2;
+    margin: 3% 3vw;
 }
 .work h3{
     font-size: 16px;
@@ -205,7 +206,7 @@ h1{
 .work-text p{
     font-size: 14px;
     line-height: 2;
-    padding-top: 2%;
+    padding-bottom: 3%;
 }
 /* right */
 .work li ul .right{
@@ -227,3 +228,16 @@ h1{
 /**/
 
 
+a[href^="http"]:after,a[href^="//"]:after {
+  margin: 0 0 0 3px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f35d';
+  font-size: smaller;
+  font-weight: 900;
+}
+a[href^="https://balo-ohba.github.io/profile/"]:after{
+  margin: inherit;
+  font-family: inherit;
+  content: '';
+  font-weight: inherit;
+}
