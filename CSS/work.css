@@ -171,20 +171,20 @@ h1{
 .work{
 	position:relative;
 	background: rgba(255, 241, 220) ; 
-    padding-bottom: 5%;
 }
 .work:nth-child(2n){
     background: rgba(255, 241, 220, 0.8) ; 
 }
 .work h2{
+    color: #4ba6dc;
     font-size: 24px;
     font-weight: bolder;
-    padding: 5% 0 0 3%;
+    padding: 3% 0 2% 3%;
 }
 .work li ul{
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 3%;
 }
 /* left */
 .work li ul .left{
@@ -196,6 +196,7 @@ h1{
     margin: 3% 3vw;
 }
 .work h3{
+    color: #4ba6dc;
     font-size: 16px;
     font-weight: bold;
 }
@@ -211,7 +212,6 @@ h1{
 /* right */
 .work li ul .right{
     width: 30%;
-    margin: 2% 0;
 }
 .work img{
     width: 100%;
