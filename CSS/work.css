@@ -14,11 +14,13 @@ a:hover{
 
 /*header*/
 .menu-drawer .btn {
-    font-size: 27px;
+    font-size: 32px;
     background: rgba(253, 160, 21, 0.5);
-    width: 40px;
-    padding: 4px 0;
+    width: 64px;
+    border-radius: 50%;
     text-align: center;
+    margin: 8px;
+    padding: 16px;
     top: 0;
     right: 0;
 }
@@ -42,16 +44,16 @@ a:hover{
 .menu-drawer .content {
     display: table;
     border: 1px solid  #ebebeb;
-    border-radius: 4px;
+    border-radius: 5px;
     background: rgba(255, 241, 220) ;
     width: 90vw;
-    top: 34px;
+    top: 80px;
     right: 0;
     text-align: center;
 }
 @media screen and (min-width: 415px) {
     .menu-drawer .content {
-      width: 160px;
+      width: 30%;
     }
 }
 .menu-drawer .content h2 {
@@ -65,7 +67,7 @@ a:hover{
 }
 .menu-drawer .content a {
     border-bottom: 1px solid #ebebeb;
-    padding: 1rem 0 0 0;
+    padding: 1rem 0;
     text-decoration: none;
     color: #858585;
     display: block;
@@ -207,6 +209,9 @@ h1{
 .work-text p{
     font-size: 14px;
     line-height: 2;
+    
+}
+.work-text .enter{
     padding-bottom: 3%;
 }
 /* right */
