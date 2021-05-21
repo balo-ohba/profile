@@ -4,50 +4,81 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1"/>
-	<title>Webサイト制作の勉強｜大場瑞希</title>
+	<title>Webデザイン・コーディングの勉強</title>
 	<meta name="description" content="武蔵大学２２卒　大場瑞希のポートフォリオサイトです。"/>
 	<link rel="stylesheet" href="../CSS/ress.css">
 	<link rel="stylesheet" href="../CSS/work.css">
-	<link rel="icon" href="images/Bg.png" sizes="32x32"/>
-	<link rel="icon" href="images/Bg.png" sizes="192x192"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+	<link rel="icon" href="../images/top/Bg.png" sizes="32x32"/>
+	<link rel="icon" href="../images/top/Bg.png" sizes="192x192"/>
 </head>
 
 <body>
-	<header class="page-header">
-		<nav id="nav">
-			<details id="menu" open><summary>- Menu -</summary>
-			<ul>
-				<li><a href="../ohba.html">Top</a></li>
-			</ul>
-		    </details>
-		</nav>
-	</header>
+	<header>
+        <div class="menu-drawer">
+            <input type="checkbox" id="chk" />
+            <label class="btn" for="chk"></label>
+            <label class="other" for="chk"></label>
+            <div class="content">
+                <h2>メニュー</h2>
+                <div class="menu">
+                    <a href="../index.html">top</a>
+                    <a href="../index.html#profile">profile</a>
+                    <a href="works1.html">works1</a>
+                    <a href="works2.html">works2</a>
+                    <a href="works3.html">works3</a>
+                    <a href="works4.html">works4</a>
+                    <a href="works5.html">works5</a>
+                    <a href="works6.html">works6</a>
+                    <a href="works7.html">works7</a>
+                </div>
+            </div>
+        </div>
+    </header>
 	
  <main>
-	<section class="work-top">
-		<h1>Webサイト制作の勉強</h1>
-		<img src="../images/works6-web/web-s2-1.jpg" alt="Webサイト制作の勉強"/>
-		<ul>
-			<li class="work-toptext">
-				<p>　ステイホーム期間で新しい形の制作に挑戦したいと考え、HTML・CSSのコーディングとWebデザインを勉強し始めました。</p>
-			</li>
+	<section id="top">
+        <ul class="container">
+            <li class="item main">
+                <img src="../images/works2/w2-2.jpg">
+            </li>
+
+            <li class="item title">
+				<div>
+					<h1>大学３・４年｜Web</h1>
+					<h2>Webデザイン・コーディングの勉強</h2>
+				</div>
+            </li>
+
+			<li class="item">
+                <img src="../images/works2/w2-3.jpg">
+            </li>
+
+			<li class="item">
+                <img src="../images/works2/w2-5.jpg">
+            </li>
+
+			<li class="item title">
+				<div>
+					<p>東京都東久留米市のコミュニティFM局「FMひがしくるめ」でボランティアスタッフとして生放送に参加しています。</p>
+				</div>
+            </li>
 		</ul>
-    </section>
+	</section>
 
 	<section class="work">
+		<h2>Webサイトの勉強</h2>
 		<ul>
 			<li>
-				<h3>コーディングの学習</h3>
 				<ul>
 					<li class="left">
 						<div class="work-category">
 							<h4>分類：web</h4>
-							<h4>言語：html・css</h4>
 						</div>
 						<div class="work-text">
-							<p>学部横断ゼミでCSR報告書を制作する際に、企業ロゴやコーポレートカラーから色やフォントの与える印象を、誌面の文字や写真の配置を考える上でレイアウトの規則を学びました。
-								　またWebサイトについて勉強する中でサイトデザインやUI・UXの概念について知り、さらにデザインに興味を持つようになりました。そこでデザインの基本である色彩検定の受験を決め、１２月に３級・２級を取得しました。
-								　今まで映像や冊子の制作で感覚的に選んでいた色について、効果や印象、配色技法などを理論的な知識として改めて捉え直すことが出来ました。</p>
+							<p>これまでに映像や冊子の制作を経験し、ステイホーム期間で新しい形の制作に挑戦したいと考えました。
+								そこで今まで触れたことがなかったWebサイト制作について、HTML・CSSのコーディングとWebデザインを勉強し始めました。</p>
 						</div>	
 					</li>
 					<li class="right">
@@ -57,63 +88,87 @@
 	        </li>
 
 			<li>
-				<h3>デザインの学習</h3>
 				<ul>
 					<li class="left">
+						<h3>コーディング</h3>
 						<div class="work-category">
-							<h4>分類：web</h4>
-							<h4>資格：色彩検定２級</h4>
+							<h4>言語：HTML・CSS</h4>
 						</div>
 						<div class="work-text">
-							<p>色彩</p>
+							<p>Webサイト制作の導入として、htmlとcssを学習しました。まず書籍でWebサイトの仕組みとコーディングの基本を学び、デモサイトを制作しました。
+								その後自作サイトを作りながら、コーディングの分からない部分を追加で調べながら進めました。</p>
+							<p>HTML・CSSの基本的な使い方を覚えたので、今後はフレームワークの扱い方やJavaSprict・jQuery等を使ったエフェクトの作り方、システム・サーバーに関する言語について学んでいきたいと考えています。</p>
 						</div>	
 					</li>
 					<li class="right">
-						<img src="../images/works6-web/web-s2-2.jpg" alt="デザインの学習"/>		
+						<img src="../images/works6/w6-1.jpg" alt="コーディングの学習"/>		
 					</li>
 				</ul>
 	        </li>
 
 			<li>
-				<h3>webサイトの管理・運営</h3>
 				<ul>
 					<li class="left">
+						<h3>デザイン・色彩</h3>
 						<div class="work-category">
-							<h4>分類：web</h4>
-							<h4>：ひがしくるめ</h4>
+							<h4>資格：色彩検定２級</h4>
 						</div>
 						<div class="work-text">
-							<p>現在はボランティアスタッフをしているFMひがしくるめで、WordPressを使ったサイトの更新・改修をしており、実際のサイト運用やユーザビリティを実践の中で学んでいます。</p>
+							<p>学部横断ゼミでCSR報告書を制作する際に、企業ロゴやコーポレートカラーから色やフォントの与える印象、誌面の文字や写真の配置を考える上でレイアウトの規則を学びました。
+								またWebサイトについて勉強する中で、サイトと紙面のデザインの違いやUI・UXの概念について知り、さらにデザインに興味を持つようになりました。</p>
+							<p>そこでデザインの基本である色彩検定の受験を決め、１２月に２級を取得しました。今までの制作で感覚的に選んでいた色について、効果や印象、配色技法などを理論的に捉え直すことが出来ました。</p>
 						</div>	
 					</li>
 					<li class="right">
-						<img src="../images/works6-web/web-s2-1.jpg" alt="webサイトの管理・運営"/>		
+						<img src="../images/works6/w6-2.jpg" alt="デザインの学習"/>		
 					</li>
 				</ul>
 	        </li>
-			
+
 			<li>
-				<h3>本ページの制作</h3>
 				<ul>
 					<li class="left">
+						<h3>webサイトの管理・運営</h3>
 						<div class="work-category">
-							<h4>分類：web</h4>
-							<h4>：html・css/AdobeXD・VScode</h4>
+							<h4>サイト：<a href="http://www.fm-higashikurume.com/" target="_blank" rel="noopener noreferrer">FMひがしくるめ</a></h4>
 						</div>
 						<div class="work-text">
-							<p>このサイト</p>
+							<p>ボランティアスタッフをしているFMひがしくるめで、WordPressを使ったサイトの管理・運営をしています。
+								ページや情報が乱立して見にくくなっていたものの、更新できるスタッフがおらず放置されていたため、webサイトの勉強も兼ねて改修と運営に携わりました。</p>
+							<p>まずページを分類毎に統合・整理し直し、無駄なページやリンクを減らしました。またナビゲーションやサイドを見直し、ページ間の移動をスムーズにしました。
+								これにより最低限のユーザビリティが確保されましたが、まだ機能性・見た目ともに改善点が多いのでWord Pressの機能を覚えながら更新していきたいと思います。</p>	
 						</div>	
 					</li>
 					<li class="right">
-						<img src="../images/works6-web/web-s2-1.jpg" alt="本ページの制作"/>		
+						<iframe class="kurumerahp" src="http://www.fm-higashikurume.com/"></iframe>	
 					</li>
 				</ul>
 	        </li>
-		
 		</ul>
 	</section>
-	
+
+	<section class="work">
+		<h2>本サイトの制作</h2>
+		<ul>
+			<li>
+				<ul>
+					<li class="left">
+						<div class="work-category">
+							<h4>担当：設計・コーディング</h4>
+							<h4>ソフト：HTML・CSS</h4>
+							<h4>ソフト：AdobeXD・VScode</h4>
+						</div>
+						<div class="work-text">
+							<p>コーディングやWebデザインを学んだ成果として制作しました。
+								大学生活の中で「何を考えたか」「どのように行動したか」を伝えるよう、活動に焦点を当て、大学１年から順に記載しています。</p>
+						</div>
+					</li>
+					<li class="right">	
+						<img src="../images/works2/w2-4.jpg">
+					</li>
+				</ul>
+			</li>
+		</ul>
  </main>
- 
 </body>
 </html>
