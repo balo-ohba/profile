@@ -66,8 +66,11 @@ html{
     color: #858585;
     display: block;
     width: 100%;
-    display: flex;
-    flex-flow: column;
+}
+.menu-drawer .content .menuworks{
+    padding: 1rem 3vw;
+    text-align: left;
+    line-height: 1.5
 }
 .menu-drawer .btn,.menu-drawer .content,.menu-drawer .other {
     position: fixed;
