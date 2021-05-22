@@ -191,14 +191,47 @@ h1{
     justify-content:space-evenly;
     padding-bottom: 3%;
 }
+
+/* center */
 .work li ul .center{
     width: 86.8%;
 }
-.center .w4ex{
-    padding: 3% 0;
+.work li ul .pdf{
+    width: 70%;
+}
+.work li ul .pdf img:hover{
+    opacity: .7;
+}
+.work .w3,.work .w5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work .w3 .work-text{
+    width: 45%;
+    margin: 3% 1vw;
+    line-height: 2;
+}
+.center .w4{
+    background-color: #fffaf3;
     display: flex;
     justify-content: space-evenly;
-    background-color: #fffaf3;
+    padding: 2% 0;
+}
+.work .w5 .work-text{
+    width: 30%;
+    margin: 0 1vw 3%;
+    line-height: 2;
+}
+.work .center .work-text .sss{
+    padding: 3% 5%;
+    background: #fbfbfb;
+}
+.work .center .work-text .ssss{
+    padding: 3% 5%;
+    background: #fbfbfb;
+    width: 60%;
+    margin: auto;
 }
 /* left */
 .work li ul .left{
@@ -225,8 +258,9 @@ h1{
     
 }
 .work-text .newline{
-    padding-top: 3%;
+    padding-top: 4%;
 }
+
 /* right */
 .work li ul .right{
     width: 30%;
