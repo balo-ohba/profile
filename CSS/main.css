@@ -5,11 +5,25 @@ html{
     font-size: 100%;
     scroll-behavior:smooth;
 }
+a[href^="http"]:after,a[href^="//"]:after {
+    margin: 0 0 0 3px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f35d';
+    font-size: smaller;
+    font-weight: 900;
+  }
+  a[
+    href^="https://balo-ohba.github.io/profile/"]:after{
+    margin: inherit;
+    font-family: inherit;
+    content: '';
+    font-weight: inherit;
+}
 
 /*header*/
 .menu-drawer .btn {
     font-size: 32px;
-    background: rgba(253, 160, 21, 0.5);
+    background: rgba(253, 160, 21, 0.7);
     width: 64px;
     border-radius: 50%;
     text-align: center;
@@ -51,8 +65,10 @@ html{
     }
 }
 .menu-drawer .content h2 {
+    width: 100%;
     font-size: 16px;
     font-weight: 700;
+    text-align: center;
     color: #fff;
     background: rgba(253, 160, 21);
     margin: 0;
@@ -66,6 +82,9 @@ html{
     color: #858585;
     display: block;
     width: 100%;
+}
+.menu-drawer .content a:hover{
+    color:rgb(235, 138, 28);
 }
 .menu-drawer .content .menuworks{
     padding: 1rem 3vw;
@@ -155,16 +174,28 @@ html{
 }
 h1{
     font-size: 40px;
-    padding: 3%;
+    font-weight: bolder;
+    color:rgb(116 180 230);
+    padding: 2% 5%;
 }
 h2{
-    font-size: 20px;
-    padding: 0 2vw;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bolder;
     text-align: justify;
 }
+#profile li a{
+    border-bottom: 1px solid #FEFEFE;
+}
+#profile li a:hover{
+    color:rgb(235, 138, 28);
+}
 #profile p{
-    font-size: 15px;
-    padding: 3% 2vw 0;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    padding: 3% 0 0;
     text-align: justify;
 }
 #profile img{
