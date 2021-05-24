@@ -204,6 +204,9 @@ h2{
     background-color:	rgba(0,0,0,0.4);
     -webkit-transition:	all 0.2s ease;
     transition:	all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item:hover img{
     width: 101%;
@@ -213,11 +216,7 @@ h2{
 }
 /* caption */
 .item .caption {
-    margin: 5% 10%;
     color:#fff;
-}
-.main .caption {
-    margin: 20% 10%;
 }
 h3{
     font-size: 14px;
