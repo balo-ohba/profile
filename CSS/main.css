@@ -128,16 +128,13 @@ html{
     box-sizing: border-box;
     position: relative;
 }
-#main-visual div{
-    display: table;
+#main-visual p{
     position: absolute;
     right: 5%;
-    bottom: 8%;
-    width: 40%;
+    bottom: 5%;
     color: white;
     text-shadow: 1px 1px 3px #3a3a3a;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 15px;
 }
 /**/
 
