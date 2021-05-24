@@ -143,32 +143,35 @@ html{
 
 /* profile */
 #profile{
-	position:relative;
 	background: rgba(255, 241, 220, 0.8) ; 
-    padding: 3%;
     line-height: 2;
-}
-h1{
-    font-size: 40px;
-}
-h2{
-    font-size: 20px;
-    padding: 0 3%;
-}
-#profile p{
-    font-size: 15px;
-    padding: 3% 5% 0;
 }
 #profile ul{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+    padding-bottom: 5%;
 }
 #profile li{
-    width: 50%;
+    width: 45%;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    padding: 3%;
+}
+h2{
+    font-size: 20px;
+    padding: 0 2vw;
+    text-align: justify;
+}
+#profile p{
+    font-size: 15px;
+    padding: 3% 2vw 0;
+    text-align: justify;
 }
 #profile img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 /**/
@@ -181,7 +184,7 @@ h2{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4px;
+    gap: 0.5vw;
     padding: 16px 0;
 }
 /* item */
