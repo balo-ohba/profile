@@ -159,7 +159,7 @@ a[href^="http"]:after,a[href^="//"]:after {
 
 /* profile */
 #profile{
-	background: rgba(255, 241, 220, 0.8) ; 
+	background: #FDF4E5; 
     line-height: 2;
 }
 #profile ul{
@@ -175,7 +175,7 @@ a[href^="http"]:after,a[href^="//"]:after {
 h1{
     font-size: 40px;
     font-weight: bolder;
-    color:rgb(116 180 230);
+    color:#74B4E6;
     padding: 2% 5%;
 }
 h2{
@@ -195,7 +195,7 @@ h2{
     width: 90%;
     margin: auto;
     font-size: 14px;
-    padding: 3% 0 0;
+    padding: 2% 0 0;
     text-align: justify;
 }
 #profile img{
@@ -206,7 +206,7 @@ h2{
     
 /* works */
 .works{
-	background: rgba(255, 241, 220, 0.8) ; 
+	background: #FDF4E5; 
 }
 
 .container{
