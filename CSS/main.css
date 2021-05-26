@@ -230,8 +230,8 @@ h1{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2px;
-    padding: 2px 0;
+    gap: 4px;
+    padding: 4px 0;
 }
 /* item */
 .item{
