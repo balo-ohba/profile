@@ -146,20 +146,20 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
 h1{
     position: absolute;
     left: 5%;
-    top: 10%;
+    bottom: 20%;
     font-size: 64px;
     font-weight: bolder;
-    color:#74B4E6;
+    color: rgb(253 160 21 / 90%);
     text-shadow: 3px 3px 2px #fdf4e5;
     line-height: 1.7;
 }
 #main-visual h2{
     position: absolute;
     left: 5%;
-    top: 25%;
+    bottom: 15%;
     font-size: 40px;
     font-weight: bolder;
-    color:#74B4E6;
+    color:rgb(253 160 21 / 90%);
     text-shadow: 2px 2px 2px #fdf4e5;
 }
 #main-visual p{
