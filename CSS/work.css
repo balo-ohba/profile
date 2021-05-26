@@ -148,17 +148,18 @@ a[
 
 /* top */
 #top{
-	background: rgba(253, 160, 21, 0.8); 
+	background: #FDF4E5; 
     color: #FEFEFE;
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 1px;
 }
 .item{
 	overflow: hidden;
 	position: relative;	
+    background: rgba(253, 160, 21, 0.8); 
 }
 .item img{
     width: 100%;
@@ -189,7 +190,8 @@ h1{
     font-weight: bolder;
 }
 .item p{
-    margin: 5%;
+    margin: auto;
+    width: 90%;
     font-size: 14px;
     line-height: 1.7;
     text-align: justify;

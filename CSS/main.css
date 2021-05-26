@@ -149,8 +149,8 @@ h1{
     bottom: 20%;
     font-size: 64px;
     font-weight: bolder;
-    color: rgb(253 160 21 / 90%);
-    text-shadow: 3px 3px 2px #fdf4e5;
+    color: rgb(253 160 21);
+    text-shadow: 3px 3px 2px rgb(25 25 25);
     line-height: 1.7;
 }
 #main-visual h2{
@@ -159,8 +159,8 @@ h1{
     bottom: 15%;
     font-size: 40px;
     font-weight: bolder;
-    color:rgb(253 160 21 / 90%);
-    text-shadow: 2px 2px 2px #fdf4e5;
+    color: rgb(253 160 21);
+    text-shadow: 3px 3px 2px rgb(25 25 25);
 }
 #main-visual p{
     position: absolute;
@@ -181,7 +181,7 @@ h1{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 3%;
+    padding: 5% 3%;
 }
 #profile li{
     width: 50%;
@@ -230,8 +230,8 @@ h1{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5vw;
-    padding: 16px 0;
+    gap: 2px;
+    padding: 2px 0;
 }
 /* item */
 .item{
