@@ -12,8 +12,7 @@ a[href^="http"]:after,a[href^="//"]:after {
     font-size: smaller;
     font-weight: 900;
   }
-  a[
-    href^="https://balo-ohba.github.io/profile/"]:after{
+a[href^="https://balo-ohba.github.io/profile/"]:after{
     margin: inherit;
     font-family: inherit;
     content: '';
@@ -141,11 +140,27 @@ a[href^="http"]:after,a[href^="//"]:after {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
-    padding-bottom: calc(100%*1862/3693);/* calc(100*ImageHeight/ImageWidth)% */
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    height: 700px;
     position: relative;
+}
+h1{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-size: 64px;
+    font-weight: bolder;
+    color:#74B4E6;
+    text-shadow: 3px 3px 2px #fdf4e5;
+    line-height: 1.7;
+}
+#main-visual h2{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    font-size: 40px;
+    font-weight: bolder;
+    color:#74B4E6;
+    text-shadow: 2px 2px 2px #fdf4e5;
 }
 #main-visual p{
     position: absolute;
@@ -153,7 +168,7 @@ a[href^="http"]:after,a[href^="//"]:after {
     bottom: 5%;
     color: white;
     text-shadow: 1px 1px 3px #3a3a3a;
-    font-size: 15px;
+    font-size: 14px;
 }
 /**/
 
@@ -166,30 +181,32 @@ a[href^="http"]:after,a[href^="//"]:after {
     display: flex;
     justify-content:center;
     align-items: center;
-    padding-bottom: 5%;
+    padding: 3%;
 }
 #profile li{
-    width: 45%;
+    width: 50%;
     text-align: center;
+    padding: 1%;
 }
-h1{
-    font-size: 40px;
-    font-weight: bolder;
-    color:#74B4E6;
-    padding: 2% 5%;
-}
-h2{
-    width: 90%;
-    margin: auto;
-    font-size: 14px;
+#profile li h2{
+    color: #74B4E6;
+    font-size: 20px;
     font-weight: bolder;
     text-align: justify;
 }
+#profile li h3{
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    text-align: justify;
+}
 #profile li a{
-    border-bottom: 1px solid #FEFEFE;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    padding-bottom: 3px;
 }
 #profile li a:hover{
     color:rgb(235, 138, 28);
+    border-bottom: 1px solid rgb(235, 138, 28);
 }
 #profile p{
     width: 90%;
@@ -199,8 +216,9 @@ h2{
     text-align: justify;
 }
 #profile img{
-    width: 90%;
+    width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 /**/
     
@@ -239,9 +257,6 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.item:hover img{
-    width: 101%;
-}
 .item:hover .mask {
     opacity:1;
 }
@@ -249,14 +264,14 @@ h2{
 .item .caption {
     color:#fff;
 }
-h3{
+.item h3{
     font-size: 14px;
     line-height: 2.5;
 }
 .main h3{
     font-size: 16px;
 }
-h4{
+.item h4{
     font-size: 16px;
     font-weight: bolder;
 }
