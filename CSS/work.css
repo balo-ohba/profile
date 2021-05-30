@@ -307,7 +307,7 @@ h1{
 
 
 /* レスポンシブ */
-@media screen and (max-width:600px){
+@media screen and (max-width:600px){
     /* menu */
     .menu-drawer .content{
         width: 100%;
@@ -348,4 +348,5 @@ h1{
     .work li ul .right{
         width: 80%;
     }
+    /*  */
 }
