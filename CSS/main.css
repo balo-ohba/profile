@@ -338,7 +338,7 @@ h1{
 }
 
 
-/* スマホ版 */
+/* レスポンシブ */
 @media screen and (max-width:600px){
     /* menu */
     .menu-drawer .content {
@@ -408,54 +408,8 @@ h1{
     .other{
         display: inline;
     }
-    /**/
-
-    /* main */
-    .main1{
-        grid-column: none;
-        grid-row: none;
-    }
-    .main2{
-        grid-column: none;
-        grid-row: none;
-    }
-    .main3{
-        grid-column: none;
-        grid-row: none;
-    }
-    .main4{
-        grid-column: none;
-        grid-row: none;
-    }
-    .main5{
-        grid-column: none;
-        grid-row: none;
-    }
-    .main6{
-        grid-column: none;
-        grid-row: none;
+    .other .caption{
+        width: 70%;
     }
     /**/
-
-    /* more */
-    .more{
-        text-align: center;
-    }
-    .more a{
-        width: 80%;
-        padding:16px;
-        color:#ffffff;
-        font-weight: bold;
-        font-size: 14px;
-        text-decoration: none;
-        box-shadow:0px 0px 0px 2px #ffffff inset;
-        display: inline-block;
-        position:relative;
-        margin-top: 10%;
-    }
-    .more a:hover{
-        color: rgba(0,0,0,0.75);
-        background: rgba(255, 255, 255, 0.4);
-        border-bottom: 0;
-    }
 }
