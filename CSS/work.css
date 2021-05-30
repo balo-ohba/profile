@@ -322,19 +322,26 @@ h1{
         flex-direction: column;
         gap: 0px;
     }
+    .item{
+        display: none;
+    }
+    .main{
+        display: flex;
+    }
     .title{
+        display: flex;
         padding: 5%;
     }
+    /* work */
     .work h2{
         padding: 5%;
     }
     .work li ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        padding-bottom: 5%;
+        padding-bottom: 8%;
     }
-    /* left */
     .work li ul .left,.work li ul .center{
         width: 90%;
     }
@@ -344,7 +351,6 @@ h1{
     .work-text{
         margin: 5vw 3vw;
     }
-    /* right */
     .work li ul .right{
         width: 80%;
     }
