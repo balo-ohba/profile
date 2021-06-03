@@ -219,47 +219,6 @@ h1{
     padding-bottom: 3%;
 }
 
-/* center */
-.work li ul .center{
-    width: 86.8%;
-}
-.work li ul .pdf{
-    width: 70%;
-}
-.work li ul .pdf img:hover{
-    opacity: .7;
-}
-.work .w3,.work .w5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.work .w3 .work-text{
-    width: 45%;
-    margin: 3% 1vw;
-    line-height: 2;
-}
-.center .w4{
-    background-color: #fffaf3;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2% 0;
-}
-.work .w5 .work-text{
-    width: 30%;
-    margin: 0 1vw 3%;
-    line-height: 2;
-}
-.work .center .work-text .sss{
-    padding: 3% 5%;
-    background: #fbfbfb;
-}
-.work .center .work-text .ssss{
-    padding: 3% 5%;
-    background: #fbfbfb;
-    width: 60%;
-    margin: auto;
-}
 /* left */
 .work li ul .left{
     width: 50%;
@@ -285,7 +244,7 @@ h1{
     
 }
 .work-text .newline{
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 /* right */
@@ -303,7 +262,69 @@ h1{
 .work .kurumerahp{
     height: 100%;
 }
-/**/
+
+/* center */
+.work li ul .center{
+    width: 86.8%;
+}
+.work li ul .center .w3pdf{
+    width: 60%;
+    margin: auto;
+}
+.work li ul .center .w3pdf a{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.work .w3page,.work .w5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work .w3page .work-text{
+    width: 40%;
+    margin: 3% 1vw;
+    line-height: 2;
+}
+.center .w3contents,.center .w4{
+    background-color: #fffaf3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+.center .w3contents{
+    margin: auto;
+    width: 80%;
+}
+.work .oudanmovie{
+    justify-content: center;
+}
+.work .oudanmovie .right{
+    width: 40%;
+}
+.work .oudanmovie .right iframe{
+    width: 100%;
+    height: 25vw;
+}
+
+
+.work .w5design .work-text{
+    width: 30%;
+    margin: 0 1vw 3%;
+    line-height: 2;
+}
+.work .center .work-text .w5purpose{
+    width: 90%;
+    margin: auto;
+    padding: 3% 5%;
+    background: #fbfbfb;
+}
+.work .center .work-text .w5contents{
+    padding: 3% 5%;
+    background: #fbfbfb;
+    width: 60%;
+    margin: auto;
+}
+
 /**/
 
 
