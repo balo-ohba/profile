@@ -282,23 +282,23 @@ h1{
 .work li ul .center{
     width: 86.8%;
 }
-.work .w3page,.work .w5{
+.work .w2page,.work .w6{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.work .w3page .work-text{
+.work .w2page .work-text{
     width: 40%;
     margin: 3% 1vw;
     line-height: 2;
 }
-.center .w3contents,.center .w4{
+.center .w2contents,.center .w1{
     background-color: #fffaf3;
     display: flex;
     justify-content: space-evenly;
     padding: 2% 0;
 }
-.center .w3contents{
+.center .w2contents{
     margin: auto;
     width: 80%;
 }
@@ -314,18 +314,18 @@ h1{
 }
 
 
-.work .w5design .work-text{
+.work .w6design .work-text{
     width: 30%;
     margin: 0 1vw 3%;
     line-height: 2;
 }
-.work .center .work-text .w5purpose{
+.work .center .work-text .w6purpose{
     width: 90%;
     margin: auto;
     padding: 3% 5%;
     background: #fbfbfb;
 }
-.work .center .work-text .w5contents{
+.work .center .work-text .w6contents{
     padding: 3% 5%;
     background: #fbfbfb;
     width: 60%;
