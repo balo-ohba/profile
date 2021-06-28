@@ -34,6 +34,7 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
 .menu-drawer .btn::before, .menu-drawer .btn::after {
     font-family: "Font Awesome 5 Free" ;
     font-weight: 900;
+    color: #FDF4E5;
 }
 .menu-drawer .btn::before {
     content: "\f0c9";
@@ -149,8 +150,8 @@ h1{
     bottom: 20%;
     font-size: 64px;
     font-weight: bolder;
-    color: rgb(253 160 21);
-    text-shadow: 3px 3px 2px rgb(25 25 25);
+    color:rgb(255 255 255);
+    text-shadow: 2px 2px 5px rgb(253 160 21);
     line-height: 1.7;
 }
 #main-visual h2{
@@ -159,8 +160,8 @@ h1{
     bottom: 15%;
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(253 160 21);
-    text-shadow: 3px 3px 2px rgb(25 25 25);
+    color: rgb(255 255 255);
+    text-shadow: 2px 2px 5px rgb(253 160 21);
 }
 #main-visual p{
     position: absolute;
