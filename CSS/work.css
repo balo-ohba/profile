@@ -277,6 +277,10 @@ h1{
 .work .kurumerahp{
     height: 100%;
 }
+.right p{
+    font-size: 14px;
+    line-height: 2;
+}
 
 /* center */
 .work li ul .center{
