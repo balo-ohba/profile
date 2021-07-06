@@ -17,7 +17,7 @@ a:hover{
     border-bottom: 1px solid rgb(235, 138, 28);
 }
 a[href^="http"]:after,a[href^="//"]:after {
-    margin: 0 0 0 3px;
+    margin-left: 3px;
     font-family: "Font Awesome 5 Free";
     content: '\f35d';
     font-size: smaller;
@@ -31,7 +31,7 @@ a[
     font-weight: inherit;
 }
 
-/*header*/
+/* header */
 .menu-drawer .btn {
     font-size: 32px;
     background: rgba(253, 160, 21, 0.7);
@@ -115,7 +115,6 @@ a[
 .menu-drawer #chk {
     display: none;
 }
-
 /* 表示(close) */
 .menu-drawer #chk ~ .btn::before {
     display: block;
@@ -136,8 +135,6 @@ a[
 .menu-drawer #chk:checked ~ .other {
     display: block;
 }
-/*  */
-
 .menu-drawer #chk ~ .content {
     transform: translate(350%, 0);
     transition: transform 0.3s ease-in-out;
@@ -145,9 +142,8 @@ a[
 .menu-drawer #chk:checked ~ .content {
     transform: none;
 }
-/*  */
 
-/* top */
+/* top（ページトップ） */
 #top{
 	background: #FDF4E5; 
     color: #FEFEFE;
@@ -198,9 +194,8 @@ h1{
     line-height: 1.7;
     text-align: justify;
 }
-/*  */
 
-/* work */
+/* work（活動概要） */
 .work{
 	position:relative;
 	background: rgb(252 239 207 / 80%); 
@@ -328,10 +323,8 @@ h1{
     width: 60%;
     margin: auto;
 }
-/**/
 
-
-/* レスポンシブ */
+/* レスポンシブ対応 */
 @media screen and (max-width:600px){
     /* menu */
     .menu-drawer .content{
@@ -341,7 +334,7 @@ h1{
         padding: 1rem 10vw;
     }
 
-    /* work */
+    /* top（ページトップ） */
     .container{
         display: flex;
         flex-direction: column;
@@ -357,7 +350,7 @@ h1{
         display: flex;
         padding: 5%;
     }
-    /* work */
+    /* work（活動概要） */
     .work h2{
         padding: 5%;
     }
@@ -379,5 +372,4 @@ h1{
     .work li ul .right{
         width: 80%;
     }
-    /*  */
 }

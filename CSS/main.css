@@ -19,7 +19,7 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
     font-weight: inherit;
 }
 
-/*header*/
+/* header */
 .menu-drawer .btn {
     font-size: 32px;
     background: rgba(253, 160, 21, 0.7);
@@ -225,7 +225,7 @@ h1{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4px;
+    gap: 2px;
     padding: 4px 0;
 }
 /* item */
