@@ -215,6 +215,10 @@ h1{
     align-items: center;
     padding-bottom: 3%;
 }
+.work p{
+    font-size: 15px;
+    line-height: 2;   
+}
 
 /* left */
 .work li ul .left{
@@ -235,12 +239,7 @@ h1{
     margin: 0px 3vw;
     text-align: justify;
 }
-.work-text p{
-    font-size: 14px;
-    line-height: 2;
-    
-}
-.work-text .newline{
+.newline{
     padding-top: 3%;
 }
 
@@ -270,58 +269,26 @@ h1{
     height: 100%;
     margin: 3% 0;
 }
-.work .kurumerahp{
-    height: 100%;
-}
-.right p{
-    font-size: 14px;
-    line-height: 2;
-}
 
 /* center */
 .work li ul .center{
     width: 86.8%;
 }
-.work .w2page,.work .w6{
+.work .w2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.work .w2page .work-text{
+.work .w2 .work-text{
     width: 40%;
     margin: 0 1vw 3%;
     line-height: 2;
 }
-.center .w2contents,.center .w5{
+.center .w5{
     background-color: #fffaf3;
     display: flex;
     justify-content: space-evenly;
     padding: 2% 0;
-}
-.center .w2contents{
-    margin: auto;
-    width: 80%;
-}
-.work .w6design{
-    display: flex;
-    justify-content: space-between;
-}
-.work .w6design .work-text{
-    width: 30%;
-    margin: 0 1vw 3%;
-    line-height: 2;
-}
-.work .center .work-text .w6purpose{
-    width: 90%;
-    margin: auto;
-    padding: 3% 5%;
-    background: #fbfbfb;
-}
-.work .center .work-text .w6contents{
-    padding: 3% 5%;
-    background: #fbfbfb;
-    width: 60%;
-    margin: auto;
 }
 
 /* レスポンシブ対応 */
@@ -350,6 +317,7 @@ h1{
         display: flex;
         padding: 5%;
     }
+
     /* work（活動概要） */
     .work h2{
         padding: 5%;
