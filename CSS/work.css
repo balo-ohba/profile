@@ -341,4 +341,15 @@ h1{
     .work li ul .right{
         width: 80%;
     }
+    .work .w2{
+        flex-direction: column;
+    }
+    .work .w5{
+        flex-direction: column;
+        padding: 3%;
+    }
+    .work .w2 .work-text{
+        width: auto;
+        margin: 3% 1vw;
+    }
 }
