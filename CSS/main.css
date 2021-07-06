@@ -6,7 +6,7 @@ html{
     scroll-behavior:smooth;
 }
 a[href^="http"]:after,a[href^="//"]:after {
-    margin: 0 0 0 3px;
+    margin-left: 3px;
     font-family: "Font Awesome 5 Free";
     content: '\f35d';
     font-size: smaller;
@@ -103,7 +103,6 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
 .menu-drawer #chk {
     display: none;
 }
-
 /* 表示(close) */
 .menu-drawer #chk ~ .btn::before {
     display: block;
@@ -124,8 +123,6 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
 .menu-drawer #chk:checked ~ .other {
     display: block;
 }
-/**/
-
 .menu-drawer #chk ~ .content {
     transform: translate(350%, 0);
     transition: transform 0.3s ease-in-out;
@@ -133,10 +130,9 @@ a[href^="https://balo-ohba.github.io/profile/"]:after{
 .menu-drawer #chk:checked ~ .content {
     transform: none;
 }
-/**/
 
-/* #main-visual */
-#main-visual{
+/* top（ページトップ） */
+#top{
     background-image: url(../images/top/Bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +150,7 @@ h1{
     text-shadow: 2px 2px 5px rgb(253 160 21);
     line-height: 1.7;
 }
-#main-visual h2{
+#top h2{
     position: absolute;
     left: 5%;
     bottom: 15%;
@@ -163,7 +159,7 @@ h1{
     color: rgb(255 255 255);
     text-shadow: 2px 2px 5px rgb(253 160 21);
 }
-#main-visual p{
+#top p{
     position: absolute;
     right: 5%;
     bottom: 5%;
@@ -171,9 +167,8 @@ h1{
     text-shadow: 1px 1px 3px #3a3a3a;
     font-size: 14px;
 }
-/**/
 
-/* profile */
+/* profile（自己紹介） */
 #profile{
 	background: #FDF4E5; 
     line-height: 2;
@@ -194,11 +189,12 @@ h1{
     font-size: 20px;
     font-weight: bolder;
     text-align: justify;
+    margin: 2% 0;
 }
 #profile li h3{
     width: 90%;
     margin: auto;
-    font-size: 13px;
+    font-size: 14px;
     text-align: justify;
 }
 #profile li a{
@@ -212,7 +208,7 @@ h1{
 #profile p{
     width: 90%;
     margin: auto;
-    font-size: 14px;
+    font-size: 15px;
     padding: 2% 0 0;
     text-align: justify;
 }
@@ -221,13 +217,11 @@ h1{
     height: auto;
     border-radius: 5px;
 }
-/**/
     
-/* works */
+/* works（活動紹介） */
 .works{
 	background: #FDF4E5; 
 }
-
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -282,8 +276,6 @@ h1{
 .main h4{
     font-size: 24px;
 }
-/**/
-
 /* more */
 .more{
 	text-align: center;
@@ -305,7 +297,6 @@ h1{
 	background: rgba(255, 255, 255, 0.4);
     border-bottom: 0;
 }
-
 /* main */
 .main{
     height: auto;
@@ -336,10 +327,8 @@ h1{
     grid-column: 3/5;
     grid-row: 7/9;
 }
-/**/
 
-
-/* レスポンシブ */
+/* レスポンシブ対応 */
 @media screen and (max-width:600px){
     /* menu */
     .menu-drawer .content {
@@ -349,8 +338,8 @@ h1{
         padding: 1rem 10vw;
     }
 
-    /* #main-visual */
-    #main-visual{
+    /* #top */
+    #top{
         height: 320px;
     }
     h1{
@@ -358,17 +347,16 @@ h1{
         top: 0%;
         font-size: 40px;
     }
-    #main-visual h2{
+    #top h2{
         left: 0%;
         top: 20%;
         font-size: 24px;
     }
-    #main-visual p{
+    #top p{
         font-size: 12px;
     }
-    /**/
-
-    /* profile */
+    
+    /* profile（自己紹介） */
     #profile ul{
         display: flex;
         flex-direction: column-reverse;
@@ -385,9 +373,8 @@ h1{
         height: auto;
         border-radius: 5px;
     }
-    /**/
 
-    /* works */
+    /* works（活動紹介） */
     .container{
         display: flex;
         flex-direction: column;
@@ -415,5 +402,4 @@ h1{
     .other .caption{
         width: 70%;
     }
-    /**/
 }
